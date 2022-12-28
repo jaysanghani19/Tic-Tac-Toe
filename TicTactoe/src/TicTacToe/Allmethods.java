@@ -67,7 +67,7 @@ public class Allmethods {
         for (int i =1;i<10;i++)
         {
 
-            if (i%2==0)
+            if (i%2!=0)
             {
                 System.out.println(Player1 +"'s Turn  Enter your choice");
                 choice=sc.nextInt();
@@ -81,7 +81,7 @@ public class Allmethods {
             }
             else
             {
-                System.out.println(Player1 + " Turn.  Enter your choice");
+                System.out.println(Player2 + " Turn.  Enter your choice");
                 choice=sc.nextInt();
                 while (choice<1 || choice>9)
                 {
